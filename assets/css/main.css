@@ -518,11 +518,16 @@ img.resize {
   height: 150px;
   width: 150px;
   margin: 25px auto;
-  -webkit-transition: 0.5s all linear;
-          transition: 0.5s all linear;
+  -webkit-transition: 0.1s all linear;
+          transition: 0.1s all linear;
 }
 .partner .partner-box:hover {
-  opacity: 1;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  opacity: 0.8;
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+
 }
 .partner .partner-box-3 {
   background: url(../images/partner/jetbrains.png) no-repeat center center/contain;
