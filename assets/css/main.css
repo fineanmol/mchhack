@@ -435,6 +435,11 @@ img.resize {
   font-weight: 400;
 }
 
+.partner h4 {
+  text-align: center;
+  font-weight: 900;
+}
+
 /* 
  * 6.3 Section: Speaker
  */
@@ -493,12 +498,19 @@ img.resize {
 .partner {
   background-color: #f8f8f8;
 }
-
+/*
 .theme {
   background-color: #f4f2f2;
 }
+*/
+
+.schedule {
+	background-color: #f8f8f8
+}
+
+
 .registration{
-  background-color: #ecf2f8;
+  background-color: #f8f8f8;
 }
 .partner .partner-box {
   display: block;
@@ -621,7 +633,19 @@ img.resize {
 
   .section-title {
     margin: 0 0 30px;
+
   }
+  
+  .underline {
+  background-repeat: repeat-x;
+}
+
+.underline--stars {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/star.svg");
+  background-position: 0 1.06em;
+  background-size: 10px 9px;
+  color: #f2f3f8;
+}
 
   figure {
     margin-bottom: 0;
