@@ -477,12 +477,25 @@ img.resize {
  */
 .schedule-box {
   position: relative;
-  background-color: #000;
-  color: #fff;
+  color: #000;
+  border-bottom-color: #660000;
+  border-bottom-style:solid;
+  border-bottom-width: 6px;
+  border-radius: 5px;
+  background-color: lightgrey;
   text-align: center;
   padding: 50px 0;
   margin: 25px 0 0;
 }
+.schedule-box:hover {
+	background-color: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  opacity: 0.8;
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
 .schedule-box::before {
   content: '';
   position: absolute;
