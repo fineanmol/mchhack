@@ -399,6 +399,11 @@ img.resize {
   font-weight: 300;
 }
 
+.site-header .intro img{
+	margin: auto;
+	display: block;
+}
+
 @media (min-width: 768px) {
   .navbar-custom {
     background-color: transparent;
