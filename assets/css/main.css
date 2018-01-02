@@ -400,6 +400,9 @@ img.resize {
 }
 
 .site-header .intro img{
+	position: relative;
+	height: 15%; 
+	width: 10%;
 	margin: auto;
 	display: block;
 }
