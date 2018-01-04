@@ -137,9 +137,9 @@ img.resize {
           transition-property: transform;
 }
 .btn:hover {
-  -webkit-transform: scale(0.9);
-      -ms-transform: scale(0.9);
-          transform: scale(0.9);
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .form-control {
@@ -527,6 +527,31 @@ img.resize {
   background-color: #f4f2f2;
 }
 */
+
+
+.organizer {
+  background-color: #f8f8f8;
+}
+.organizer .organizer-box {
+  display: block;
+  opacity: 0.75H;
+  height: 150px;
+  width: 300px;
+  margin: 25px auto;
+  padding: 25px;
+  -webkit-transition: 0.1s all linear;
+          transition: 0.1s all linear;
+}
+.organizer .organizer-box:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  opacity: 0.8;
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+
+}
+
+
 
 .schedule {
 	background-color: #f8f8f8
