@@ -564,8 +564,8 @@ img.resize {
 .partner .partner-box {
   display: block;
   opacity: 0.75H;
-  height: 150px;
-  width: 150px;
+  height: 180px;
+  width: 180px;
   margin: 25px auto;
   -webkit-transition: 0.1s all linear;
           transition: 0.1s all linear;
@@ -598,6 +598,9 @@ img.resize {
 }
 .partner .partner-box-7 {
   background: url(../images/partner/applop.png) no-repeat center center/contain;
+}
+.partner .partner-box-8 {
+  background: url(../images/partner/wolfram.jpg) no-repeat center center/contain;
 }
 
 
