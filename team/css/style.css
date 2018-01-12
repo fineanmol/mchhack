@@ -544,6 +544,7 @@ form label {
 .gtco-cover .display-tc h1 {
   margin-bottom: 0px;
   font-size: 59px;
+  font-family: cursive;
   line-height: 1.5;
 }
 @media screen and (max-width: 768px) {
