@@ -270,7 +270,7 @@ img.resize {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-@media (min-width: 500px) {
+@media (min-width: 1000px) {
   .section {
     padding: 90px 0;
   }
