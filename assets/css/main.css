@@ -169,6 +169,7 @@ img.resize {
 
 .section {
   padding: 70px 0;
+
 }
 
 .section-title {
@@ -279,7 +280,7 @@ img.resize {
     letter-spacing: 1px;
     margin: 0 0 60px;
     text-transform: uppercase;
-    text-align: left;
+    text-align: justify-all;
   }
 }
 /* 
@@ -407,7 +408,7 @@ img.resize {
 	display: block;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 750px) {
   .navbar-custom {
     background-color: transparent;
     padding-top: 30px;
