@@ -10,6 +10,8 @@ $(window).load(function(){
 	handleTopNavAnimation();
 });
 
+
+
 function handleTopNavAnimation() {
 	var top=$(window).scrollTop();
 
@@ -61,6 +63,13 @@ $('#registration-form').submit(function(e){
                         }
         });
 });
+
+
+	// Loading page
+	var loaderPage = function() {
+		$(".gtco-loader").fadeOut("slow");
+	};
+
 
 /*
  * SmoothScroll

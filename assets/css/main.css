@@ -142,6 +142,7 @@ img.resize {
           transform: scale(1.2);
 }
 
+
 .form-control {
   border-radius: 0;
   box-shadow: none;
@@ -520,7 +521,12 @@ img.resize {
 /* 
  * 6.7 Section: Schedule
  */
+
 .partner {
+  background-color: #f8f8f8;
+}
+
+.loc {
   background-color: #f8f8f8;
 }
 /*
@@ -530,6 +536,14 @@ img.resize {
 */
 
 
+.schedule {
+	background-color: #f8f8f8
+}
+
+
+.registration{
+  background-color: #f8f8f8;
+}
 .organizer {
   background-color: #f8f8f8;
 }
@@ -553,15 +567,6 @@ img.resize {
 }
 
 
-
-.schedule {
-	background-color: #f8f8f8
-}
-
-
-.registration{
-  background-color: #f8f8f8;
-}
 .partner .partner-box {
   display: block;
   opacity: 0.75H;
@@ -752,4 +757,111 @@ img.resize {
 }
 .site-footer .social-block li a:hover, .site-footer .social-block li a:focus {
   opacity: 0.8;
+}
+
+
+.gtco-section {
+  clear: both;
+  position: relative;
+  background-color: #fff;
+}
+
+.gtco-container {
+  max-width: 1140px;
+  height: 150px;
+  position: relative;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.js .animate-box {
+  opacity: 0;
+}
+
+.gtco-section.border-bottom {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.gtco-staff {
+  text-align: center;
+  margin-bottom: 7em;
+  float: left;
+  width: 100%;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.gtco-staff:hover {
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+@media screen and (max-width: 768px) {
+  .gtco-staff {
+    margin-bottom: 3em;
+  }
+}
+.gtco-staff img {
+  width: 220px;
+  margin-bottom: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+.gtco-staff h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.gtco-staff p {
+  margin-bottom: 30px;
+}
+.gtco-staff .role {
+  color: #841616;
+  margin-bottom: 30px;
+  font-weight: normal;
+  display: block;
+}
+
+.gtco-social-icons {
+  margin: 0;
+  padding: 0;
+}
+.gtco-social-icons li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+.gtco-social-icons li a {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  color: #17B794;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.gtco-social-icons li a i {
+  font-size: 20px;
+}
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-sm-block {
+    display: block !important;
+  }
 }

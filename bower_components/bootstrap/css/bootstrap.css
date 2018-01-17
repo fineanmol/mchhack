@@ -6471,8 +6471,7 @@ button.close {
     bottom: 20px;
   }
 }
-.clearfix:before,
-.clearfix:after,
+
 .dl-horizontal dd:before,
 .dl-horizontal dd:after,
 .container:before,
@@ -6504,7 +6503,7 @@ button.close {
   content: " ";
   display: table;
 }
-.clearfix:after,
+
 .dl-horizontal dd:after,
 .container:after,
 .container-fluid:after,
@@ -6521,6 +6520,16 @@ button.close {
 .modal-footer:after {
   clear: both;
 }
+
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
 .center-block {
   display: block;
   margin-left: auto;
