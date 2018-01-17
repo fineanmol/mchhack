@@ -5,6 +5,15 @@ p#demo{
   font-family: system-ui;
   color: #00ff00;
 }
+
+p#flist {
+    font-size: 20px;
+    font-family: system-ui;
+    color: #fff;
+}
+a#fl{
+  color: #ff0b9a;
+}
 /* 
  * 1. Google Font
  */
