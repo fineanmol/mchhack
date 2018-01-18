@@ -5,6 +5,15 @@ p#demo{
   font-family: system-ui;
   color: #00ff00;
 }
+
+p#flist {
+    font-size: 20px;
+    font-family: system-ui;
+    color: #fff;
+}
+a#fl{
+  color: #ff0b9a;
+}
 /* 
  * 1. Google Font
  */
@@ -607,6 +616,9 @@ img.resize {
 }
 .partner .partner-box-8 {
   background: url(../images/partner/wolfram.png) no-repeat center center/contain;
+}
+.partner .partner-box-9 {
+  background: url(../images/partner/cb.png) no-repeat center center/contain;
 }
 
 
