@@ -87,6 +87,27 @@ ul {
 	}
 }
 
+.gtco-social-icons {
+	margin: 0;
+	padding: 0;
+	li {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		@include inline-block;
+		a {
+			@include inline-block;
+			color: $brand-primary;
+			padding-left: 10px;
+			padding-right: 10px;
+			i {
+				font-size: 20px;
+			}
+		}
+	}
+}
+
+
 .btn.active.focus, 
 .btn.active:focus, 
 .btn.focus, 
